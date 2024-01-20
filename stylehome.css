@@ -38,8 +38,8 @@ h1 {
 }
 
 nav>a {
-    margin-left: 3.7rem;
-    font-size: 2.5rem;
+    margin-left: 2rem;
+    font-size: 2.0rem;
     color: blueviolet;
 }
 
@@ -70,13 +70,13 @@ body>div {
 }
 
 section>h2 {
-    color: antiquewhite;
+    color: rgb(251, 239, 4);
     font-size: 2em;
     font-family: 'Courier New', Courier, monospace;
 }
 
 section>p {
-    color: antiquewhite;
+    color: rgb(251, 239, 4);
     font-size: 1.5em;
     font-family: fantasy;
     margin-top: 2em;
@@ -84,11 +84,11 @@ section>p {
 }
 
 h3 {
-    color: antiquewhite;
+    color: rgb(251, 239, 4);
     font-size: 2em;
     font-family: cursive;
-    margin-top: 1em;
     text-align: center;
+    overflow-wrap: normal;
 }
 
 main>section {
@@ -101,8 +101,9 @@ main>section {
 section>img {
     width: 15em;
     height: 20em;
-    margin-top: 2em;
-    margin-left: 18em;
+    margin-top: 5em;
+    margin-left: 30em;
+    margin-bottom: 5em;
 }
 /* --- End of Main --- */
 
@@ -115,4 +116,5 @@ footer {
     display: flex;
     justify-content: space-between;  
 }
+
 

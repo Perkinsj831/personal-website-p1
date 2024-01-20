@@ -38,8 +38,8 @@ h1 {
 }
 
 nav>a {
-    margin-left: 3.7rem;
-    font-size: 2.5rem;
+    margin-left: 2rem;
+    font-size: 2.0rem;
     color: blueviolet;
 }
 
@@ -69,41 +69,67 @@ body>div {
     display: flex;
 }
 
-section>h2 {
-    color: antiquewhite;
-    font-size: 2em;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-section>p {
-    color: antiquewhite;
-    font-size: 1.5em;
+h2 {
+    color: rgb(251, 239, 4);
     font-family: fantasy;
-    margin-top: 2em;
-    margin-left: .2em;
+    font-size: 1.5em;
+    margin-top: 1em;
+    border-style: solid;
+    border-color: black;
 }
 
 h3 {
-    color: antiquewhite;
-    font-size: 2em;
-    font-family: cursive;
+    color: rgb(251, 239, 4);
+    font-size: 1.5em;
+    margin-top: .5em;
+    text-align: center;
+}
+
+p {
+    color: rgb(251, 239, 4);
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: .5em;
+}
+
+h4 {
+    color: rgb(251, 239, 4);
+    font-size: 1.5em;
+    font-family: fantasy;
     margin-top: 1em;
     text-align: center;
 }
 
-main>section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
+section {
+    color: rgb(251, 239, 4);
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: .5em;
 }
 
-section>img {
-    width: 15em;
-    height: 20em;
-    margin-top: 2em;
-    margin-left: 18em;
+h5 {
+    color: rgb(251, 239, 4);
+    font-size: 1.5em;
+    font-family: fantasy;
+    margin-top: 1em;
+    text-align: center;
 }
+
+main>div {
+    color: rgb(251, 239, 4);
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: .5em;
+}
+
+main>img {
+    width: 5em;
+    height: 5em;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 35em;
+}
+
 /* --- End of Main --- */
 
 /* --- Start of Footer --- */
@@ -115,4 +141,5 @@ footer {
     display: flex;
     justify-content: space-between;  
 }
+
 
