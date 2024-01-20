@@ -126,13 +126,14 @@ main>div {
     font-family: 'Courier New', Courier, monospace;
     margin-top: .5em;
     background-color: white;
+    margin-bottom: 3%;
 }
 
 main>img {
-    width: 5em;
+    width: 10%;
     height: 5em;
     position: relative;
-    margin-left: 46%;
+    margin-left: 45%;
     margin-top: 1%;
 }
 
