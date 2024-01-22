@@ -155,4 +155,6 @@ footer {
     justify-content: space-between;  
 }
 
-
+footer>img {
+    width: 12%;
+}
